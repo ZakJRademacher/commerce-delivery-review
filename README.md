@@ -4,7 +4,9 @@ A state with the most late deliveries isn't necessarily the state with the highe
 
 The project combines six Olist source files into checked reporting tables and a **two-page Power BI delivery report**. Python and SQLite handle preparation and reconciliation across **99,441 orders and 112,650 item lines**.
 
-[View the report](deliverables/delivery-priorities-preview.png) · [Download the PBIX](deliverables/Commerce%20Delivery%20Priorities.pbix) · [Read the SQL investigation](docs/SQL_INVESTIGATION.md)
+**[Open the live report](https://zakjrademacher.github.io/commerce-delivery-review/report/)** · [Preview image](deliverables/delivery-priorities-preview.png) · [Download the PBIX](deliverables/Commerce%20Delivery%20Priorities.pbix) · [Read the SQL investigation](docs/SQL_INVESTIGATION.md)
+
+The live report is a self-contained page in [report/](report/), rebuilt from the processed data with `python tools/build_web_report.py`.
 
 ![Power BI delivery review showing late-delivery counts and rates](deliverables/delivery-priorities-preview.png)
 
