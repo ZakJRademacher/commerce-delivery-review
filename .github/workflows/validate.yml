@@ -1,5 +1,7 @@
 name: Validate portfolio pipeline
 on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
 jobs:
   validate:
     runs-on: ubuntu-latest
