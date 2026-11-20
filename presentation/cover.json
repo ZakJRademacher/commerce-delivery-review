@@ -14,7 +14,7 @@
     "accent": "accent"
   },
   "frame_label": "Delivery priorities",
-  "preview_note": "Historical Olist data · delivery counts and rates",
+  "preview_note": "Historical Olist data · delivery counts and rates · v1.0.0",
   "footer": "POWER BI / SQL / RECONCILIATION",
   "preview_mode": "contain"
 }
