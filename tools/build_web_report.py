@@ -136,6 +136,8 @@ render();watchSections(['overview','states','decision']);
 def main() -> None:
     data = load()
     html_text = page(
+        url="https://zakjrademacher.github.io/commerce-delivery-review/report/",
+        image="https://zakjrademacher.github.io/commerce-delivery-review/deliverables/portfolio-cover-wide.png",
         title="Commerce Delivery Review",
         description="Interactive review of Olist delivery performance: late-delivery counts versus late rates by state and purchase month.",
         rail_name="Delivery<br>Priorities",
