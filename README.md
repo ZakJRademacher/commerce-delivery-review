@@ -2,6 +2,8 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-C5A42C?style=flat-square) ![DAX](https://img.shields.io/badge/DAX-796A36?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-31566D?style=flat-square)
 
+![Power BI delivery review showing late-delivery counts and rates](deliverables/delivery-priorities-preview.png)
+
 A state with the most late deliveries isn't necessarily the state with the highest late rate. I built this review to compare both and give an operations team a clearer starting point for investigation.
 
 The project combines six Olist source files into checked reporting tables and a **two-page Power BI delivery report**. Python and SQLite handle preparation and reconciliation across **99,441 orders and 112,650 item lines**.
@@ -9,8 +11,6 @@ The project combines six Olist source files into checked reporting tables and a 
 **[Open the live report](https://zakjrademacher.github.io/commerce-delivery-review/report/)** · [Preview image](deliverables/delivery-priorities-preview.png) · [Download the PBIX](deliverables/Commerce%20Delivery%20Priorities.pbix) · [Read the SQL investigation](docs/SQL_INVESTIGATION.md)
 
 The live report is a self-contained page in [report/](report/), rebuilt from the processed data with `python tools/build_web_report.py`.
-
-![Power BI delivery review showing late-delivery counts and rates](deliverables/delivery-priorities-preview.png)
 
 ## What I found
 
